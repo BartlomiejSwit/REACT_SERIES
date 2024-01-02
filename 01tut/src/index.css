@@ -49,6 +49,16 @@ main {
   overflow: auto;
 }
 
+footer {
+  width: calc(100% - 2px);
+  padding: 0 0.25em;
+  background-color: mediumblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
